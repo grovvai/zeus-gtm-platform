@@ -42,6 +42,9 @@
   --color-tier-cool: var(--tier-cool);
   --color-tier-cold: var(--tier-cold);
 
+  --color-primary-glow: var(--primary-glow);
+  --color-primary-subtle: var(--primary-subtle);
+
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
     Roboto, sans-serif;
 }
@@ -49,7 +52,7 @@
 :root {
   --radius: 0.625rem;
 
-  /* Zeus dark-first palette */
+  /* Zeus dark-first palette — Emerald theme */
   --background: oklch(0.18 0.025 260);
   --foreground: oklch(0.97 0.005 250);
   --card: oklch(0.22 0.028 260);
@@ -57,8 +60,8 @@
   --popover: oklch(0.22 0.028 260);
   --popover-foreground: oklch(0.97 0.005 250);
 
-  --primary: oklch(0.7 0.18 275);
-  --primary-foreground: oklch(0.15 0.02 260);
+  --primary: oklch(0.479 0.097 165);
+  --primary-foreground: oklch(0.97 0.005 250);
 
   --secondary: oklch(0.27 0.03 260);
   --secondary-foreground: oklch(0.95 0.005 250);
@@ -66,7 +69,7 @@
   --muted: oklch(0.26 0.025 260);
   --muted-foreground: oklch(0.7 0.02 260);
 
-  --accent: oklch(0.32 0.05 275);
+  --accent: oklch(0.32 0.05 165);
   --accent-foreground: oklch(0.97 0.005 250);
 
   --destructive: oklch(0.62 0.22 25);
@@ -82,11 +85,16 @@
 
   --border: oklch(0.3 0.02 260);
   --input: oklch(0.3 0.02 260);
-  --ring: oklch(0.7 0.18 275);
+  --ring: oklch(0.479 0.097 165);
 
   --sidebar: oklch(0.15 0.025 260);
   --sidebar-foreground: oklch(0.85 0.01 260);
   --sidebar-border: oklch(0.27 0.025 260);
+
+  /* Emerald theme extras */
+  --primary-glow: oklch(0.55 0.13 165);
+  --primary-subtle: oklch(0.26 0.045 165);
+  --gradient-primary: linear-gradient(135deg, oklch(0.479 0.097 165), oklch(0.55 0.12 155));
 }
 
 @layer base {
