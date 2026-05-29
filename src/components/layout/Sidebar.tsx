@@ -8,8 +8,8 @@ import {
   CheckSquare,
   Sparkles,
   Settings,
-  Zap,
 } from "lucide-react";
+import zeusLogo from "@/assets/zeus-logo.png";
 import { useQuery } from "@tanstack/react-query";
 import { aiApi } from "@/api/client";
 import { cn } from "@/lib/utils";
@@ -38,9 +38,7 @@ export function Sidebar() {
   return (
     <aside className="flex h-screen w-60 shrink-0 flex-col border-r border-sidebar-border bg-sidebar text-sidebar-foreground">
       <div className="flex items-center gap-2 px-5 py-5">
-        <div className="grid h-8 w-8 place-items-center rounded-md bg-primary text-primary-foreground">
-          <Zap className="h-4 w-4" />
-        </div>
+        <img src={zeusLogo} alt="Zeus" className="h-8 w-8 rounded-md object-cover" />
         <div className="leading-tight">
           <div className="text-sm font-semibold tracking-tight">Zeus</div>
           <div className="text-[10px] uppercase tracking-wider text-muted-foreground">
