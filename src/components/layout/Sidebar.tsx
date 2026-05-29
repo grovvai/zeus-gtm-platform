@@ -21,7 +21,7 @@ const items = [
   { to: "/companies", label: "Companies", icon: Building2 },
   { to: "/activity", label: "Activity", icon: Activity },
   { to: "/tasks", label: "Tasks", icon: CheckSquare },
-  { to: "/ai-compose", label: "AI Compose", icon: Sparkles },
+  { to: "/ai-compose", label: "Ask Zeus AI", icon: Sparkles },
   { to: "/settings", label: "Settings", icon: Settings },
 ];
 
