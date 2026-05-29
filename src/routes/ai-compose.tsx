@@ -8,7 +8,7 @@ import { Sparkles, Mail, Linkedin, Phone, Copy } from "lucide-react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/ai-compose")({
-  head: () => ({ meta: [{ title: "AI Compose — Zeus" }] }),
+  head: () => ({ meta: [{ title: "Ask Zeus AI — Zeus" }] }),
   component: AiCompose,
 });
 
@@ -20,7 +20,7 @@ function AiCompose() {
   const [mode, setMode] = useState<Mode>("email");
 
   return (
-    <AppShell title="AI Compose">
+    <AppShell title="Ask Zeus AI">
       <div className="mb-4 flex flex-wrap items-center gap-2">
         <ModeButton active={mode === "email"} onClick={() => setMode("email")} icon={<Mail className="h-4 w-4" />} label="Email" />
         <ModeButton active={mode === "linkedin"} onClick={() => setMode("linkedin")} icon={<Linkedin className="h-4 w-4" />} label="LinkedIn" />

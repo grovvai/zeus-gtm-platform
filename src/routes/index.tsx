@@ -92,13 +92,13 @@ function Dashboard() {
           <Sparkles className="h-4 w-4 text-primary" /> AI quick actions
         </div>
         <p className="mt-1 text-xs text-muted-foreground">
-          Generate emails, LinkedIn messages, and call summaries from the AI Compose workspace.
+          Generate emails, LinkedIn messages, and call summaries from the Ask Zeus AI workspace.
         </p>
         <Link
           to="/ai-compose"
           className="mt-3 inline-flex items-center rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground hover:bg-primary/90"
         >
-          Open AI Compose
+          Open Ask Zeus AI
         </Link>
       </div>
     </AppShell>
